@@ -1,0 +1,92 @@
+.input-todo {
+    height: 50px;
+    width: 45vw;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.input-todoContent {
+    background: none;
+    border: none;
+    margin-left: 12px;
+    flex: 1;
+    height: 30px;
+    width: 38vw;
+}
+
+input:focus {
+    outline: none;
+}
+
+.add-todo {
+    margin-right: 8px;
+    background-color: rgb(73 95 217 / 1);
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    color: white
+}
+
+.todo-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 40vw;
+    margin-top: 49px;
+}
+
+.completed {
+    text-decoration: line-through;
+    width: 250px;
+    font-style: italic;
+    text-align: center;
+    font-family: fangsong;
+}
+
+.active-todo {
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+    font-family: fangsong;
+    width: 250px;
+}
+
+.action-buttons {
+    border: none;
+    background: none;
+    margin-top: -18px;
+}
+
+.todo-headline {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: fangsong
+}
+
+.edit-todo {
+    width: 250px;
+    margin-right: 30px;
+}
+
+.action-buttons-none {
+    display: none;
+}
+
+.allTodos {
+    display: flex;
+    justify-content: space-between;
+    width: 58vw;
+    margin-left: 20px;
+}
+
+.loader-img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
